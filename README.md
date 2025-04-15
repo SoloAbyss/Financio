@@ -20,7 +20,7 @@ Absolutely! Here's the entire README content written fully in proper Markdown sy
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/solooabyss/financio.git
+   git clone https://github.com/soloabyss/financio.git
    cd financio
    ```
 
