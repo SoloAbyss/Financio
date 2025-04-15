@@ -1,6 +1,6 @@
 Absolutely! Here's the entire README content written fully in proper Markdown syntax, ready to be saved as `README.md`:
 
-```markdown
+
 # Financio Budgeting App
 
 **Financio** is a personal budgeting application built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter). It allows users to track income and categorized expenses, view summaries, and gain insights based on a selected budget frequency.
@@ -20,7 +20,7 @@ Absolutely! Here's the entire README content written fully in proper Markdown sy
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/financio.git
+   git clone https://github.com/soloabyss/financio.git
    cd financio
    ```
 
@@ -59,25 +59,6 @@ Absolutely! Here's the entire README content written fully in proper Markdown sy
 
 1. On the **Income** or **Expenses** page, select a frequency (e.g., Weekly, Monthly) from the dropdown.
 2. Totals will automatically recalculate.
-
-## Project Structure
-
-```
-main.py
-maximus_abrahamse-3.7assessment/
-├── main.py
-├── other/
-│   ├── bg_music.mp3
-│   ├── pong_delux.py
-│   ├── financio-terminal/
-│   │   ├── financio_data.json
-│   │   └── test.py
-│   └── financio-website/
-│       └── financio.html
-```
-
-- `main.py`: Entry point for the Financio app.
-- `other/`: Miscellaneous resources and unrelated projects.
 
 ## Key Components
 
