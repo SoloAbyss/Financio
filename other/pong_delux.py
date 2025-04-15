@@ -11,7 +11,7 @@ pygame.display.set_caption("Neon Pong Power-Up Edition")
 pygame.font.init()
 
 # Load music
-pygame.mixer.music.load("bg_music.mp3")
+pygame.mixer.music.load('other/bg_music.mp3')
 pygame.mixer.music.play(-1)
 
 # Colors
