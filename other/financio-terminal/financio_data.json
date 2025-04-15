@@ -1,0 +1,52 @@
+{
+    "income": 8000.0,
+    "transactions": [
+        {
+            "id": "a61b0fe9-c7c2-43b5-b755-9eab78de23b3",
+            "type": "expense",
+            "amount": 100.0,
+            "category": "Food",
+            "description": "",
+            "date": "2025-04-15",
+            "account_name": ""
+        },
+        {
+            "id": "7076f0c2-f262-4683-a7f5-ec29881f5924",
+            "type": "expense",
+            "amount": 50.0,
+            "category": "Travel",
+            "description": "Fuel",
+            "date": "2025-04-15",
+            "account_name": ""
+        },
+        {
+            "id": "4b06d02a-7cf7-4ff3-9a50-ce25b8ae7d96",
+            "type": "expense",
+            "amount": 24.99,
+            "category": "Subscription",
+            "description": "(Recurring) Netflix",
+            "date": "2025-04-15",
+            "account_name": "",
+            "recurring_id": "52e43204-6ea3-44d2-81b6-960d5b689c2c"
+        }
+    ],
+    "recurring_transactions": [
+        {
+            "id": "52e43204-6ea3-44d2-81b6-960d5b689c2c",
+            "type": "expense",
+            "amount": 24.99,
+            "category": "Subscription",
+            "description": "Netflix",
+            "frequency": "monthly",
+            "next_due_date": "2025-05-15",
+            "account_name": "",
+            "last_processed_date": "2025-04-15"
+        }
+    ],
+    "accounts": {},
+    "budget": {
+        "Travel": 200.0
+    },
+    "goals": [],
+    "badges": []
+}

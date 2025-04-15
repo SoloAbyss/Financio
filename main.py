@@ -17,7 +17,7 @@ FREQUENCIES: List[str] = ["Weekly", "Fortnightly", "Monthly", "Yearly"]
 # Default expense categories
 DEFAULT_EXPENSE_CATEGORIES: List[str] = [
     "Food & Groceries", "Housing", "Transport", "Utilities",
-    "Entertainment", "Personal Care", "Health", "Debt Payments",
+    "Entertainment", "Personal Care", "Health", "Savings", "Debt Payments",
     "Subscriptions", "Clothing", "Gifts/Donations", "Other"
 ]
 
@@ -239,7 +239,7 @@ class FinancioApp(ctk.CTk):
             input_area, text="Frequency:", font=ctk.CTkFont(size=13)
         ).pack(pady=(10, 2))
         self.income_freq_combo = ctk.CTkComboBox(
-            input_area, values=FREQUENCIES, width=INPUT_WIDGET_WIDTH
+            input_area, values=FREQUENCIES, width=INPUT_WIDGET_WIDTH, state="readonly"
         )
         self.income_freq_combo.set(FREQUENCIES[0])  # Default 'Weekly'
         self.income_freq_combo.pack(pady=(0, 10))
@@ -407,7 +407,7 @@ class FinancioApp(ctk.CTk):
             input_area, text="Frequency:", font=ctk.CTkFont(size=13)
         ).pack(pady=(8, 2))
         self.expense_freq_combo = ctk.CTkComboBox(
-            input_area, values=FREQUENCIES, width=INPUT_WIDGET_WIDTH
+            input_area, values=FREQUENCIES, width=INPUT_WIDGET_WIDTH, state="readonly"
         )
         self.expense_freq_combo.set(FREQUENCIES[0])
         self.expense_freq_combo.pack(pady=(0, 6))
@@ -417,7 +417,7 @@ class FinancioApp(ctk.CTk):
         ).pack(pady=(8, 2))
         self.expense_category_combo = ctk.CTkComboBox(
             input_area, values=self.expense_categories,
-            width=INPUT_WIDGET_WIDTH
+            width=INPUT_WIDGET_WIDTH, state="readonly"
         )
         # Ensure a valid default category is set
         default_category = (self.expense_categories[0]
